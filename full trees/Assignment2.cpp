@@ -195,7 +195,6 @@ class List{
         //Function to display the whole list....  
         void display(){
             Node*temp = headNode;
-            cout << endl;
             cout << "List = ";
             while (temp != NULL)
             {
@@ -217,28 +216,22 @@ int main(){
     list.add(20);
     list.add(30);
     list.add(40);
-    
-    list.remove(20);
-    list.display();
-//    list.search(20);
-    
-//    
-//    list.update(10,100);
-//    list.update(30,500);
-//    list.display();
-     
+    // list.search(20);
+    // list.remove(2);
+    // list.update(10,100);
+    // list.update(30,500);
     // list.update(50,20);
-    
+    list.display();
     // list.display();
 
     cout << endl;
 
     //movement of the current  node.......
-//    list.start();
-//    list.next();
-//    list.next();
-//    list.back();
-//    list.end();
+    list.start();
+    list.next();
+    list.next();
+    list.back();
+    list.end();
     
     
     
